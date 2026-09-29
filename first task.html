@@ -1,0 +1,255 @@
+<html>
+<head>
+<title>My first student admission form</title>
+<style>
+body{
+ background-color:gray;
+}
+h1{
+background-color:red;
+}
+table{
+margin:auto;
+}
+</style>
+</head>
+<body>
+<form action="code.py" method="post">
+<h1><center>STUDENT ADMISSION FORM</center></h1>
+<table>
+<tr>
+<td>Enter your name :</td>
+<td> <input type = "text" placeholder="your name"></td>
+</tr>
+<tr>
+<td>Enter your father name :</td>
+<td> <input type = "text" placeholder="father name"></td>
+</tr>
+<tr>
+<td>Enter your mother name :</td>
+<td> <input type = "text" placeholder="mother name"></td>
+</tr>
+<tr>
+<td>Enter your DOB :</td>
+<td> <input type = "date"></td>
+</tr>
+<tr>
+<td>Gender :</td>
+<td> 
+<input type = "radio" name="gender">male 
+<input type = "radio" name="gender">female
+<input type = "radio" name="gender">others
+</td>
+</tr>
+
+<tr>
+<td>Enter your category :</td>
+<td> <select>
+<option>----select your catagery----</option>
+<option>general</option>
+<option>obc</option>
+<option>sc/st</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>Enter your aadhar number :</td>
+<td> <input type = "text" placeholder="aadhar number" required></td>
+</tr>
+<tr>
+<td>Enter your mobile number :</td>
+<td> <input type = "number" placeholder="number" required ></td>
+</tr>
+<tr>
+<td>Enter your alternate mobile number :</td>
+<td> <input type = "number" placeholder="number" required></td>
+</tr>
+<tr>
+<td>Enter your email :</td>
+<td> <input type = "email" placeholder="email" required></td>
+</tr>
+<tr>
+<td>Enter your address :</td>
+<td> <textarea placeholder="Address"></textarea></td>
+</tr>
+<tr>
+<td>Enter your Age:</td>
+<td> <input type ="Age" placeholder="Your Age" required></td>
+<tr>
+<td>Enter your state :</td>
+<td> <select>
+<option>----choose your state----</option>
+<option>punjab</option>
+<option>Bihar</option>
+<option>Madhya pradesh</option>
+<option>chattishgarh</option>
+<option>Uttar pardesh</option>
+</select></td>
+</tr>
+<tr>
+<td>Enter your district :</td>
+<td><select>
+<option>----choose your district----</option>
+<option>Ballia</option>
+<option>lucknow</option>
+<option>kanpur</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>Enter your pin code :</td>
+<td> <input type = "number"></td>
+</tr>
+<tr>
+<td>Enter your country :</td>
+<td><select>
+<option>----choose your country----</option>
+<option>India</option>
+<option>Australlia</option>
+<option>USA</option>
+</select></td>
+</tr>
+<tr>
+<td>Enter your course :</td>
+<td><select>
+<option>----choose your course----</option>
+<option>Diploma</option>
+<option>BCA</option>
+<option>B.TECH</option>
+</select></td>
+</tr>
+<tr>
+<td>Enter your course branch :</td>
+<td><select>
+<option>----choose your course branch----</option>
+<option>Computer science</option>
+<option>Machinical</option>
+<option>Others</option>
+</select></td>
+</tr>
+<tr>
+<td>Enter your addmission type :</td>
+<td> 
+<input type = "radio">online
+<input type = "radio">offline
+<input type = "radio">others
+</td>
+</tr>
+<tr>
+<td>Enter your previous college/school name :</td>
+<td> <input type = "text"></td>
+</tr>
+<tr>
+<td>Enter your previous qualification :</td>
+<td> <select>
+<option>----choose previous qualification----</option>
+<option>Diploma</option>
+<option>M.COM</option>
+<option>MBA</option>
+</select></td>
+</tr>
+<tr>
+<td>Enter your passing year :</td>
+<td> <input type = "number"></td>
+</tr>
+<tr>
+<td>Enter your Roll number :</td>
+<td> <input type = "number"></td>
+</tr>
+<tr>
+<td>Enter your percentage/cgpa :</td>
+<td> <input type = "number"></td>
+</tr>
+<tr>
+<td>Enter your Board/university :</td>
+<td> <input type = "text"></td>
+</tr>
+<tr>
+<td>Enter your 10th marks :</td>
+<td> <input type = "number"></td>
+</tr>
+<tr>
+<td>Enter your 12th marks :</td>
+<td> <input type = "number"></td>
+</tr>
+<tr>
+<td>Enter your Graduation marks :</td>
+<td> <input type = "number"></td>
+</tr>
+<tr>
+<td>Enter your guardion name :</td>
+<td> <input type = "text"></td>
+</tr>
+<tr>
+<td>Enter your guardion number :</td>
+<td> <input type = "number"></td>
+</tr>
+<tr>
+<td>Enter your guardion email :</td>
+<td> <input type = "email"></td>
+</tr>
+<tr>
+<td>Enter your parent number :</td>
+<td> <input type = "number"></td>
+</tr>
+<tr>
+<td>Enter your parent email :</td>
+<td> <input type = "email"></td>
+</tr>
+<tr>
+<td>Enter your photo :</td>
+<td> <input type = "file"></td>
+</tr>
+<tr>
+<td>Enter your signature :</td>
+<td> <input type = "file"></td>
+</tr>
+<tr>
+<td>Enter your Transefer certificate :</td>
+<td> <input type = "file"></td>
+</tr>
+<tr>
+<td>Enter your marksheet :</td>
+<td> <input type = "file"></td>
+</tr>
+<tr>
+<td>Enter your date of admission :</td>
+<td> <input type = "date"></td>
+</tr>
+<tr>
+<td>hostel :</td>
+<td> 
+<input type = "radio" name="hostel">yes
+<input type = "radio" name="hostel">no
+</td>
+</tr>
+<tr>
+<td>Transport :</td>
+<td> 
+<input type = "radio" name="trans">yes
+<input type = "radio" name="trans">no
+</td>
+</tr>
+<tr>
+<td>Enter your hobbies :</td>
+<td> 
+<input type = "radio">cricket
+<input type = "radio">kabaddi
+<input type = "radio">Travelling 
+<input type = "radio"> Bike riding
+<input type = "radio">coding
+<input type = "radio">study
+</td>
+</tr>
+<tr>
+<td>
+<center> 
+<input type = "submit" >
+<input type = "reset">
+</center>
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
